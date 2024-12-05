@@ -1,0 +1,9 @@
+The following CSS code snippet demonstrates an uncommon error related to the usage of the `calc()` function: 
+```css
+div {
+  width: calc(100% - 20px);
+  /* Incorrect: Missing space between the operator and the value */
+  border: 10px solid black;
+}
+```
+This code may not render as expected in some browsers. The issue is the lack of spaces around the `-` operator within the `calc()` function.  Correct usage requires spaces:
